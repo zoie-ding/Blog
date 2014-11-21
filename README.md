@@ -1,4 +1,0 @@
-Blog
-====
-
-Side Project 
