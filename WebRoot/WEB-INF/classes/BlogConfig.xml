@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<congif>
+	<dao id="userDao"
+	type="com.blog.dao.hibernate.UserDAO" />
+	<dap id="messageDao"
+	type="com.blog.dao.hibernate.MessageDAO" />
+</congif>

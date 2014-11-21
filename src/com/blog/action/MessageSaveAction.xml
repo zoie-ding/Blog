@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<validators>
+	<field name="message.title">
+		<field-validator type="requiredstring">
+			<message key="requiredstring"></message>
+		</field-validator>
+	</field>
+	
+	<field name="message.content">
+		<field-validator type="requiredstring">
+			<message key="requiredstring"></message>
+		</field-validator>
+		<field-validator type="stringlength">
+			<param name="maxLength">255</param>
+			<param name="trim">true</param>
+			<message>Actile content must be less than 255 bytes. </message>
+		</field-validator>
+	</field>
+</validators>
+	
